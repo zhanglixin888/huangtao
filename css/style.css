@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	font-family: "Microsoft YaHei";
+	text-decoration:none;
+}
+.container{ width:100%;}
+header
+{
+	position:relative;
+	
+}
+
+.dividingline{border-bottom:#CCC solid 1px; margin-top:1rem;}
+.menu{ position:absolute; top:3.2rem; left:0rem; display:none; z-index:0; float:left; padding-bottom:2rem;}
+.menu dl{display:block; float:left; margin-right:12rem; font-size:0.8rem;}
+.menu dl dt{ font-size:1.2rem; text-align:center; line-height:2.5rem; border-bottom:#CCC solid 1px; margin-bottom:1rem;}
+.menu dl dd{ line-height:1.5rem;}
+.menu dl .pic{ text-align:center; margin-top:1rem;}
+.row {
+    width: 100%;
+    max-width: 1260px;
+/*    min-width: 755px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.row .indexNavLeft
+{
+    width: 67%;
+    float: left;
+    display: block;
+}
+
+.header
+{
+
+    border-bottom:  solid 1px #eee;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+	z-index:999;
+}
+.row .indexNavRight
+{
+    width: 33%;
+    float: left;
+    display: block;
+    font-family: "Microsoft YaHei";
+
+}
+.row .indexNavLeft a
+{
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+	display:block; 
+	height:1.6rem;
+}
+
+.row .indexNavLeft  li ,.row .indexNavRight li
+{
+   float: left;
+    list-style: none;
+    margin-right: 3rem;
+	line-height:3rem;
+}
+ 
+.row .indexNavRight  .contact a
+ {
+   color: #2a66af;
+
+ }
+.row .indexNavRight  .contact div
+ {
+	 margin-top:0.6rem;
+ } 
+ .row p{ text-indent:2rem;}
+.row .indexNavRight .testFun
+{
+    border: #2a66af solid 1px;
+    color:#2a66af;
+    font-size: smaller;
+    padding: 0.2rem 0.7rem;
+    border-radius:3px;
+	height:1.2rem;
+	line-height:1.2rem;
+}
+.logo,{
+    width: 61.6%;
+}
+
+.color2a66af{ color:#2a66af};
+.backgroundWhite{ background:#FFF !important;}
+.body01{height:500px; background:URL(/images/index_2_02.jpg)  center no-repeat}
+.aboultbody01{height:500px; background:URL(/images/aboult_06.jpg)  center no-repeat}
+.callCenterbody01{height:500px; background:URL(/images/callCenter_02.jpg)  center no-repeat}
+.finacialbody01{height:500px; background:URL(/images/financialIndustry_02.jpg)  center no-repeat}
+.messagebody01{height:500px; background:URL(/images/message_02.jpg)  center no-repeat}
+.enterprisebody01{height:500px; background:URL(/images/enterprise_02.jpg)  center no-repeat}
+.enterprisebody02{height:360px; background:URL(/images/enterprise_41.jpg)  center no-repeat} 
+ 
+ 
+.body03{ background:#f0f2f7; height:30rem;}
+.body04{height:380px; width:100%; background:url(/images/index_1_38.jpg) center  no-repeat; }
+.body05{ background:#ebecef;}
+
+.body03 .pics img{ margin:2rem 0.5rem;}
+.body03 .pics :first-child{ margin-left:6.2rem!important;}
+
+.indexBody03{ background:#f0f2f7; height:30rem;}
+.indexBody03 .pics img{ margin:2rem 0.5rem;}
+.indexBody03 .pics :first-child{ margin-left:3rem!important;}
+
+.aboutUsPics img{ margin-left:2.5rem !important;}
+.indexBody05 img{ margin-left:2rem;}
+.width50{ width:49%; float:left;}
+.borderRight{ border-right:#CCC solid 1px;}
+.borderBottom{ border-bottom:#CCC solid 1px;}
+.indexBody02{ height:10rem;}
+.indexBody02 ul li{ list-style:none; float:left; width:33%; font-size:1rem; line-height:1.6rem; color:#666; }
+.indexBody02_2 ul li{ list-style:none; float:left; width:48%; font-size:1rem; line-height:1.6rem; color:#666; }
+
+.boot ,.boot a{ background:#363b46; width:100%; height:22rem; color:#ffffff; text-decoration:none; color:#bac0d9}
+.boot1 { background:#2c3038; width:100%; height:5rem;  color:#e6dedd}
+
+.boot dl { display:block; float:left;margin-left:3rem;}
+.center{ margin:0 auto; text-align:center}
+.boot dl dt{ font-size:18px; line-height:6rem; font-weight:bold}
+.boot dl dd{ font-size:14px; line-height:1.8rem; color:#bac0d9}
+
+.lineheight1_5Rem{ line-height:1.5rem}
+.lineheight2Rem{ line-height:2rem}
+.lineheight3Rem{ line-height:3rem}
+.lineheight4Rem{ line-height:4rem}
+.lineheight5Rem{ line-height:5rem}
+.lineheight8Rem{ line-height:8rem}
+
+.margintop1REM{ margin-top:1rem;}
+.margintop2REM{ margin-top:2rem;}
+.margintop3REM{ margin-top:3rem;}
+.margintop4REM{ margin-top:4rem;}
+
+.marginbotton1REM{ margin-bottom:1rem;}
+.marginbotton2REM{ margin-bottom:2rem;}
+
+.paddingBotton2REM{ padding-bottom:2rem;}
+.paddingBotton3REM{ padding-bottom:3rem;}
+.paddingBotton5REM{ padding-bottom:5rem;}
+
+.font14{ font-size:14px;}
+.font17{ font-size:17px;}
+.font20{ font-size:20px;}
+.font30{ font-size:2rem;}
+.font35{ font-size:3rem;}
+.fontWeight{ font-weight:bold}
+.fontColor7c7f94,.fontColor7c7f94 a{ color:#7c7f94}
+a{color:#7c7f94}
+
+.height2Rem{ height:2rem}
+.height10Rem{ height:10rem}
+.height15Rem{ height:15rem}
+.height18Rem{ height:18rem}
+.height20Rem{ height:20rem}
+.height25Rem{ height:25rem}
+.height30Rem{ height:30rem}
+.height35Rem{ height:35rem}
+
+.width48percent{ width:48%}
+
+.aboutAddres{ width:48% ; height:40rem; float:left}
+.aboutBody05{ background:#FFF}
+.ulLiFloatLeft li{ list-style:none; float:left;}
+
+
+.callCenterPicTitile dl{ display:block; float:left; width:32%}
+.callCenterPicTitile dl dt{ text-align:center;}
+.callCenterPicTitile dl dd{ font-size:14px; color:#7c7f94; padding:2.5rem; line-height:1.5rem;}
+.useContext{ background:#f4f6fb; height:40rem;}
+.useContext ul li{ float:left; list-style:none; margin-left:1rem;line-height:1.8rem;}
+.useContext ul   .active{ border-bottom:#5291ff solid 2px; line-height:1.8rem;}
+.userContext03{ width:48% ; height:40rem; float:left}
+
+.backgroundColo_edf0fa{ background:#edf0fa}
+
+.finaBody02{ border-bottom:#CCC solid 1px;}
+.finaBody02 ul li{ float: left; list-style:none; margin-right:5rem;}
+.finaBody02 .active{ border-bottom:#5291ff solid 2px; }
+.finacial02Dl dl{width:40%; float:left;padding-right:3rem; margin-top:3rem;}
+.finacial02Dl dl dd,.finacial03Dl dl dd{ color:#7c7f94; font-size:14px; padding-left:3rem; text-indent:1.5rem; }
+.finacial03Dl dl{ float:left; width:28% ; border:#ddd solid 1px; height:17rem;  margin: 0rem 1rem;}
+.finacial03Dl dt{ text-align:center}
+.finacial03Dl dl dd{ padding-right:2rem;}
+.educationl02Dl dl{width:25%; float:left; border:#CCC solid 1px; margin:0% 4%; border-radius:3px; height:15rem; text-align:center}
+.educationl02Dl dd span{ padding:0rem 2rem; display:block;}
+ 
+.edu103D1 dl{width:23%; float:left; margin: 0% 5%}
+.edu103D1 dl{ text-align:center}
+.edu103D1 dd{ text-align:left}
+.eduBody05 img{ margin:0% 3%;}
+
+.finbody05{ width:100%; height:380px; background:url(/images/financial_bottom.jpg) center;}
+.fincialBottonText ul{ display:block; float:left;width:36%; margin-top:2rem; margin-left:3rem;}
+.fincialBottonText ul li{ display:block; float:left; width:auto;}
+.backgroundf0f2f7{ background:#f0f2f7;}
+.fincialBottonText ul li dl dd{ font-size:0.9vw; color:#7c7f94; padding:0.3rem 1rem;}
+.fincialBottonText ul li dl dt{  padding:0rem 1rem;}
+
+.message02  li { float:left; display:block; list-style:none; }
+.msgbody05{width:270px; height:290px; padding:0px; display:block; float:left; margin-left:1rem;}
+.messageBody02{ border-bottom:#9fd3ff solid 1px; height:2rem;}
+.messageBody02 ul{ width:60%; display:block; margin:auto; height:2rem;}
+.messageBody02 ul li{ float: left; list-style:none; text-align:center;width:33%}
+.messageBody02 .active span{ background:#4d7eff; display:block; height:2rem; width:6rem; color:#FFF;border-radius:3px; text-align:center; line-height:2rem;
+ margin:auto }
+ .message02_1 span{ line-height:2rem; height:2rem; display:block; float:left;}
+.message02_1 li{ margin-right:9%}
+.voiceBody03{ background:#f0f2f7;  }
+.voice05{ width:325px; height:270px; display:block; float:left; margin-left:2rem; border:#CCC solid 1px; border-radius:0.3rem;}
+.voice05 dd{ text-align:left; font-size:1vw; padding:2rem 1rem;}
+.voice05 dt{ text-align:center; }
+.voicebody03left{ display:block; height:420px; width:110px; border-right:#CCC solid 1px;}
+.voicebody03left  li{ line-height:4rem; text-align:center }
+.voicebody03left  .active{ border-right:#5291ff solid 2px; color:#5291ff}
+
+.voicePicTitile dl{ display:block; float:left; width:37%; margin:0% 6%;}
+.voicePicTitile dl dt{ text-align:center; margin:1rem }
+.voicePicTitile dl dd{ font-size:14px; color:#7c7f94;  line-height:1.5rem; padding:0 2rem; text-align:center}
+
+
+.enterprise{ height:486px; background:#ecf2fc;}
+.enterprise02 dl{ display:block; float:left;width:48%;}
+.enterpriseBody1{ background:#ecf2fc;}
+.enterprisebody04 img{ margin: 0rem 0.5rem;}
+.enterpriseTitile  img{ margin:0rem 3rem;}
+.enter03li li{ margin:0px !important;}
+
+.enter03left{width:19%; float:left}
+.enter03right{width:78%; float:left}
+.enter03right div,.enter03left div{ float:left; margin-left:1rem; width:123px; height:40px; line-height:40px; border:#999 solid 1px; text-align:center;border-radius:5px; margin-top:1rem;}
+.enterprise04 div{ width:300px; height:180px; float:left; background:url(/images/enterprise_88.jpg); text-align:center; color:#FFF ; line-height:4rem; font-size:18px; font-weight:bold; }
+.enterprise04white div{ width:300px; height:180px; float:left; background:url(/images/enterprise_87.jpg); text-align:center; color:#FFF ; line-height:4rem; font-size:18px; font-weight:bold; }
+
+.enter03left div{ background:#e9f0f4;color:#80a4b7}
+.enter03left .active,.enter03right .active{ background:#5293ff; color:#FFF}
+
+
+.enterpriseTitle02 dl{ display:block; float:left; width:40% ; background:#fff; margin:0rem 3rem; height:17rem;}
+.enterpriseTitle02 dl dt{ text-align:center; font-size:1.2rem;}
+.enterpriseTitle02 dl dd{ font-size:14px; color:#7c7f94;line-height:2rem; padding-left:1.2rem; }
+.enterpriseTitle02rigjt dd{ width:40%; float:left; padding-left:8% !important}
+
+.tabClass{ cursor:pointer}
+
+
+
