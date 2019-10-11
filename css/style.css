@@ -4,7 +4,8 @@
 	font-family: "Microsoft YaHei";
 	text-decoration:none;
 }
-.container{ width:100%;}
+.container{ width:100% !important;}
+.containerMy{ width:100% !important;}
 header
 {
 	position:relative;
@@ -163,6 +164,7 @@ a{color:#7c7f94}
 .height25Rem{ height:25rem}
 .height30Rem{ height:30rem}
 .height35Rem{ height:35rem}
+.height40Rem{ height:40rem}
 
 .width48percent{ width:48%}
 

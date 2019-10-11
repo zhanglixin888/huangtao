@@ -7,8 +7,12 @@
 	<meta name="keywords" content="祥云智通  北京祥云智通科技有限公司  语音线路  短信群发 呼叫中心 隐私小号 营销短信">
 	<meta name="description" content="祥云智通  北京祥云智通科技有限公司  语音线路  短信群发 呼叫中心 隐私小号 营销短信">
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/datouwang.com.css"   type="text/css" >
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<script src="/js/jquery-3.4.1.min.js"></script>
+    
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    
     <meta name="apple-mobile-web-app-title" content="祥云智通">
 </head>
 <body>
@@ -19,14 +23,14 @@
 
 
 <!--Body begin-->
-<div class="container pics callCenterbody01 "  >
+<div class="containerMy pics callCenterbody01 "  >
  
 
 </div>
 <!--Body end-->
 
 <!--Body 02 begin-->
-<div class="container">
+<div class="containerMy">
 
 	 <div class="row">
     
@@ -56,22 +60,30 @@
 <!--Body 02 end-->
 
 <!--Body 03 begin-->
-<div class="voiceBody03 height35Rem">
-    <div class="container row ">
+<div class="voiceBody03 height40Rem">
+    <div class="containerMy row ">
       
             <div class="center lineheight5Rem  margintop2REM font30" >隐私通话场景</div>
             <div class="pics">
                <div  style="width:20%; float:left">
                
                   <ul class="voicebody03left" >
-                  	<li>打车服务</li>
-                  	<li>医疗咨询</li>
-                  	<li>快递物流</li>
-                  	<li class="active">中介平台</li>
+                  	<li  id="tabBotton_1"  class="tabClass active" >打车服务</li>
+                  	<li  id="tabBotton_2"  class="tabClass " >医疗咨询</li>
+                  	<li  id="tabBotton_3"  class="tabClass " >快递物流</li>
+                  	<li  id="tabBotton_4"  class="tabClass "  >中介平台</li>
                   </ul>
                
                </div>
-               <div  style="width:80%; float:left"><img src="images/voice_15.jpg" width="704" height="430"></div>
+               
+               <div  style="width:80%; float:left"  id="DivtabBotton_1" ><img src="images/voice_15_1.jpg" width="704" height="430"></div>
+               <div  style="width:80%; float:left"  id="DivtabBotton_2" ><img src="images/voice_15_2.jpg" width="704" height="430"></div>
+               <div  style="width:80%; float:left"  id="DivtabBotton_3" ><img src="images/voice_15_3.jpg" width="704" height="430"></div>
+               <div  style="width:80%; float:left"  id="DivtabBotton_4" ><img src="images/voice_15_4.jpg" width="704" height="430"></div>
+               
+               
+               
+               
             </div>
     
     </div>
@@ -80,7 +92,7 @@
  
 
 <!--Body 05 begin-->
-<div class="container  marginbotton2REM ">
+<div class="containerMy  marginbotton2REM ">
 
     <div class="row">
     
@@ -104,7 +116,7 @@
 </div>
  
 <div class="body03    backgroundf0f2f7">
-    <div class="container row ">
+    <div class="containerMy row ">
       
             <div class="center lineheight5Rem  margintop4REM font30" >IVR语音通知</div>
             <div class="font14 center fontColor7c7f94"> IVR语音通知用于各类场景下的提醒服务，按需呼叫用户的电话并对应播放相关录音，支持固定ivr也支持动态语音。</div>
@@ -114,16 +126,50 @@
                  <li><img src="images/voice_31.jpg" width="238" height="59"></li>
                  <li>您好，感谢您注册***，花两分钟完成实名认证有机会领取积分，按任意键重听，退出请挂机”</li>
                </ul-->
-             <img src="images/voice_pic_1.png" width="1197" height="208"> </div>
-            
-    
+             <!-- img src="images/voice_pic_1.png" width="1197" height="208"--> 
+           <div id="demo"  style="width:1197px;" class="carousel slide" data-ride="carousel">
+             
+              <!-- 指示符 -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+             
+             <div class="c-banner">
+                <div class="banner">
+                    <ul>
+                        <li><img src="images/voice_pic_1_01.jpg"></li>
+                        <li><img src="images/voice_pic_1_02.jpg"></li>
+                        <li><img src="images/voice_pic_1_03.jpg"></li>
+                    </ul>
+                </div>
+                <div class="nexImg">
+                    <img src="images/voice_34.jpg" />
+                </div>
+                <div class="preImg">
+                    <img src="images/voice_29.jpg" />
+                </div>
+                <div class="jumpBtn">
+                    <ul>
+                        <li jumpImg="0"  style="border:#5291ff solid 1px;"></li>
+                        <li jumpImg="1"  style="border:#5291ff solid 1px;"></li>
+                        <li jumpImg="2"  style="border:#5291ff solid 1px;"></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+    </div>
   </div>
+  
+  
 </div> 
 
 
 
 <!--Body 05 begin-->
-<div class="container marginbotton2REM ">
+<div class="containerMy marginbotton2REM ">
 
     <div class="row">
     
@@ -145,7 +191,7 @@
       </div>
 
 </div>
-
+ 
 
 <div id="bottom"></div>
 
@@ -163,5 +209,6 @@
 	 $(".menu").hide();
  }
 </script>
+<script src="/js/rotationpic.js"></script>
 <script src="/js/js.js"></script>
 </html>

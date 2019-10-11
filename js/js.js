@@ -3,12 +3,12 @@
 
 $(document).ready(function(e) {
     	
-	$("#DivtabBotton_2,#DivtabBotton_3").hide();
+	$("#DivtabBotton_2,#DivtabBotton_3,#DivtabBotton_4").hide();
 	
 	$(".tabClass").click(function(){
  	 
 	  	var id = $(this).prop("id");
-	    $("#DivtabBotton_1,#DivtabBotton_2,#DivtabBotton_3").hide();
+	    $("#DivtabBotton_1,#DivtabBotton_2,#DivtabBotton_3,#DivtabBotton_4").hide();
 		$("#Div"+id).show();
 		
 		$(".tabClass").removeClass("active");
