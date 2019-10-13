@@ -6,7 +6,8 @@
 	<meta name="keywords" content="祥云智通  北京祥云智通科技有限公司  语音线路  短信群发 呼叫中心 隐私小号 营销短信">
 	<meta name="description" content="祥云智通  北京祥云智通科技有限公司  语音线路  短信群发 呼叫中心 隐私小号 营销短信">
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
-	<script src="/js/jquery-3.4.1.min.js"></script>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/superslide.2.1.js"></script>
  
     <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 </head>
@@ -16,11 +17,20 @@
 <!--header end-->
 
 <!--Body begin-->
-<div class="container pics body01"  >
- 
-
-</div>
-
+<!--div class="container pics body01"  ></div-->
+<div class="fullSlide">
+	<div class="bd">
+		<ul>
+			<li _src="url(images/index_2_02.jpg)" style="background:#E2025E center 0 no-repeat;"><a target="_blank" href="/message.html"></a></li>
+			<li _src="url(images/callCenter_02.jpg)" style="background:#DED5A1 center 0 no-repeat;"><a target="_blank"  href="/voice.html"></a></li>
+			<li _src="url(images/enterprise_02.jpg)" style="background:#B8CED1 center 0 no-repeat;"><a target="_blank"  href="/enterprise.html"></a></li>
+ 			
+		</ul>
+	</div>
+	<div class="hd"><ul></ul></div>
+	<span class="prev"></span>
+	<span class="next"></span>
+</div><!--fullSlide end-->
 
 <!--Body end-->
 
@@ -167,6 +177,29 @@
  {
 	 $(".menu").hide();
  }
+</script>
+
+<script type="text/javascript">
+$(".fullSlide").hover(function(){
+    $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function(){
+    $(this).find(".prev,.next").fadeOut()
+});
+$(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
 </script>
 <script src="/js/js.js"></script>
 </html>

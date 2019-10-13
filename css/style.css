@@ -13,7 +13,7 @@ header
 }
 
 .dividingline{border-bottom:#CCC solid 1px; margin-top:1rem;}
-.menu{ position:absolute; top:3.2rem; left:0rem; display:none; z-index:0; float:left; padding-bottom:2rem;}
+.menu{ position:absolute; top:3.2rem; left:0rem; display:none; z-index:22; float:left; padding-bottom:2rem;}
 .menu dl{display:block; float:left; margin-right:12rem; font-size:0.8rem;}
 .menu dl dt{ font-size:1.2rem; text-align:center; line-height:2.5rem; border-bottom:#CCC solid 1px; margin-bottom:1rem;}
 .menu dl dd{ line-height:1.5rem;}
@@ -199,11 +199,11 @@ a{color:#7c7f94}
 .edu103D1 dd{ text-align:left}
 .eduBody05 img{ margin:0% 3%;}
 
-.finbody05{ width:100%; height:380px; background:url(/images/financial_bottom.jpg) center;}
-.fincialBottonText ul{ display:block; float:left;width:36%; margin-top:2rem; margin-left:3rem;}
+.finbody05{ width:100%; height:380px; }
+.fincialBottonText ul{ display:block; float:left;width:40%; margin-top:2rem; margin-left:3rem; background:#f2f4fa; padding:2rem;}
 .fincialBottonText ul li{ display:block; float:left; width:auto;}
 .backgroundf0f2f7{ background:#f0f2f7;}
-.fincialBottonText ul li dl dd{ font-size:0.9vw; color:#7c7f94; padding:0.3rem 1rem;}
+.fincialBottonText ul li dl dd{ font-size:0.9vw; color:#7c7f94; padding:0.3rem 0.3rem;}
 .fincialBottonText ul li dl dt{  padding:0rem 1rem;}
 
 .message02  li { float:left; display:block; list-style:none; }
@@ -252,5 +252,24 @@ a{color:#7c7f94}
 
 .tabClass{ cursor:pointer}
 
+
+
+/* fullSlide */
+.fullSlide{width:100%;position:relative;height:410px;background:#000;z-index:1}
+.fullSlide .bd{margin:0 auto;position:relative;z-index:0;overflow:hidden;}
+.fullSlide .bd ul{width:100% !important;}
+.fullSlide .bd li{width:100% !important;height:410px;overflow:hidden;text-align:center;}
+.fullSlide .bd li a{display:block;height:410px;}
+.fullSlide .hd{width:100%;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;}
+.fullSlide .hd ul{text-align:center;}
+.fullSlide .hd ul li{cursor:pointer;display:inline-block;*display:inline;zoom:1;width:42px;height:11px;margin:1px;overflow:hidden;background:#000;filter:alpha(opacity=50);opacity:0.5;line-height:999px;}
+.fullSlide .hd ul .on{background:#f00;}
+.fullSlide .prev,.fullSlide .next{display:block !important;position:absolute;top:50%;margin-top:-30px;left:15%;z-index:999;width:40px;height:60px;background:url(/images/slider-arrow.png) -126px -137px #000 no-repeat;cursor:pointer;filter:alpha(opacity=50);opacity:0.5;display:none;}
+.fullSlide .next{left:auto;right:15%;background-position:-6px -137px;}
+
+.aboutUsCustomerCase{}
+.aboutUsCustomerCase li{ display:block; float:left; width:250px; height:120px; line-height:190px; text-align:center; margin:1.5rem 1.5rem; border:#CCC solid 1px; border-radius:0.2rem; li}
+
+.finaccial2body2 img{ float:left; margin:2rem 2rem;}
 
 
